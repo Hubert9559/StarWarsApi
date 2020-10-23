@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StarWars.Api</name>
+    </assembly>
+    <members>
+        <member name="M:StarWars.Api.Controllers.CharactersController.Get(System.Int32,System.Int32)">
+            <summary>
+            Get single page of Star Wars characters 
+            </summary>
+            <param name="page">Page number</param>
+            <param name="size">Page size</param>
+            <returns>List of characters</returns>
+            <response code="400">Validation error</response>
+            <response code="200">Returns list of characters</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:StarWars.Api.Controllers.CharactersController.Create(StarWars.Api.Resources.NewCharacterResource)">
+            <summary>
+            Create Star Wars character
+            </summary>
+            <param name="resource">New character resource</param>
+            <returns></returns>
+            <response code="201">Character succesfully created</response>
+            <response code="400">Validation error</response>
+            <response code="406">Name is already taken</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:StarWars.Api.Controllers.CharactersController.Update(StarWars.Api.Resources.UpdateCharacterResource)">
+            <summary>
+            Update Star Wars character
+            </summary>
+            <param name="resource">Update character resource</param>
+            <returns></returns>
+            <response code="200">Character succesfully updated</response>
+            <response code="400">Validation error</response>
+            <response code="404">Character not found</response>
+            <response code="406">Name is already taken</response>
+            <response code="409">Character can't befriend itself</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:StarWars.Api.Controllers.CharactersController.Delete(System.Int64)">
+            <summary>
+            Delete Star Wars character
+            </summary>
+            <param name="id">Character id</param>
+            <returns></returns>
+            <response code="200">Character succesfully deleted</response>
+            <response code="400">Validation error</response>
+            <response code="404">Character not found</response>
+            <response code="500">Internal server error</response>
+        </member>
+        <member name="M:StarWars.Api.Controllers.EpisodesController.Get">
+            <summary>
+            Returns list of valid episode names
+            </summary>
+            <response code="200">Returns list of episodes</response>
+        </member>
+    </members>
+</doc>
