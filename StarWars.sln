@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Characters.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Characters.Infrastructure", "src\StarWars.Characters.Infrastructure\StarWars.Characters.Infrastructure.csproj", "{E8BC61AB-EAA4-41E7-8C25-F8B35F6AB896}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Shared", "..\src\StarWars\StarWars.Shared\StarWars.Shared.csproj", "{F58750AA-D460-45B8-B28E-B565A5392A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Shared", "src\StarWars.Shared\StarWars.Shared.csproj", "{F58750AA-D460-45B8-B28E-B565A5392A44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Characters.Tests", "src\StarWars.Character.Tests\StarWars.Characters.Tests.csproj", "{B81ED720-A4B4-4BBF-8F57-3130BE4A1DA6}"
 EndProject

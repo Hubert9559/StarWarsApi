@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\StarWars\StarWars.Shared\StarWars.Shared.csproj" />
+    <ProjectReference Include="..\StarWars.Shared\StarWars.Shared.csproj" />
   </ItemGroup>
 
 </Project>
